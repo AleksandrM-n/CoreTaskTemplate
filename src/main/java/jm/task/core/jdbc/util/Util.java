@@ -35,6 +35,8 @@ public class Util {
             properties.setProperty(Environment.USER, "root");
             properties.setProperty(Environment.PASS, "959297");
             properties.setProperty(Environment.URL, "jdbc:mysql://localhost:3306/somedb?useSSL=false");
+            properties.setProperty(Environment.SHOW_SQL, "true");
+            properties.setProperty(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
 
             configuration.setProperties(properties);
 
